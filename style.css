@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(102, 101, 99);
+}
+#foto{
+    width: 280px;
+    height: 280px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+}
+#conteiner{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #000;
+    width: 320px;
+    height: 580px;
+    padding: 15px;
+    padding-bottom: 0;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 300);
+    border-radius: 7px;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+}
+.btn{
+    width: 50px;
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+#stop{
+    display: none;
+    width: 70px;
+    height: 55px;
+}
+
+#tempo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#controle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+input{
+    color: #000;
+    width: 100%;
+    height: 6px;
+}
+#descricao{
+    padding-left: 15px;
+    align-self: flex-start;
+}
+h3{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#duracao{
+    width: 280px;
+    margin-top: 10px;
+}
+
+#player{
+    width: 70px;
+    height: 55px;
+    justify-items: center;
+}

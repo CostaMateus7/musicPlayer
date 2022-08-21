@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/iconMusic.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+
+    <link rel="stylesheet" href="./style.css"> 
+    
+    <title>Músicas</title>
+</head>
+
+<body>
+    <div id="conteiner">
+       
+        <img id="foto" src="./images/img-1.jpg">
+        <div id="descricao">
+            <h3>Nome do Artista</h3> 
+            <i>Música</i>
+        </div>
+        <div id="duracao">
+           <div id="barra">
+            <input type="range" value="0" min="1" max="100"> 
+            <div id="ponto"></div>
+           </div>
+           <div id="tempo">
+            <p id="inicio"></p>
+            <p id="fim"></p> 
+           </div>
+        </div>
+
+            <audio id="music" src=""></audio>
+        <div id="controle">
+           <img class="btn" id="btnBack"src="./images/skip-back.svg">
+           <img class="btn" id="player" src="./images/play-circle.svg">
+           <img class='btn' id="stop" src="./images/stop.svg">
+           <img class='btn' id="btnForward" src="./images/skip-forward.svg">
+        </div> 
+
+    </div>
+        <footer>&copy;Dev. Mateus Costa</footer>
+        <script src="./script.js"></script>
+</body>
+</html>
